@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 700px;
+    padding: 25px 24px; 
+}
+.container .title{
+    font-size: 24px;
+    font-family: 'OpenSans-Bold';
+
+}
+.container form .user-Detail{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 40px;
+    margin-top: 16px
+    /* justify-content: space-between; */
+
+}
+form .user-Detail .box{
+    margin-top: inherit;
+}
+form .user-Detail .text-input{
+    width:100%;
+    padding: 6px;
+    margin-top: 4px;
+    /* box-sizing: border-box */
+}
+
